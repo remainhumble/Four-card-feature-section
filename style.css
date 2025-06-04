@@ -20,7 +20,7 @@ body {
   background-color: var(--White);
   font-family: "Poppins", sans-serif;
   color: var(--Grey-500);
-  font-size: 1rem;
+  font-size: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -37,50 +37,64 @@ h1 {
 h1 > b {
   font-weight: 700;
   display: block;
-  margin-top: -0.625rem;
+  margin-top: -10px;
 }
 
 .description {
   font-size: 1rem;
   color: var(--Grey-400);
   text-align: center;
-  margin: 0.625rem auto;
-  max-width: 34.375rem;
-}
-
-.card1,
-.card2,
-.card3,
-.card4 {
-  background-color: var(--White);
-  border-top: 0.188rem solid;
-  border-radius: 0.188rem;
-  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.18);
-  padding: 1.25rem;
-  margin: 1.25rem auto;
-  max-width: 18.75rem;
+  margin: 10px auto;
+  max-width: 550px;
 }
 
 .card1 {
-  border-top-color: var(--Cyan);
+  background-color: var(--White);
+  border-top: 3px solid var(--Cyan);
+  border-radius: 3px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 300px;
 }
+
 .card2 {
-  border-top-color: var(--Red);
+  background-color: var(--White);
+  border-top: 3px solid var(--Red);
+  border-radius: 3px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 300px;
 }
+
 .card3 {
-  border-top-color: var(--Orange);
+  background-color: var(--White);
+  border-top: 3px solid var(--Orange);
+  border-radius: 3px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 300px;
 }
+
 .card4 {
-  border-top-color: var(--Blue);
+  background-color: var(--White);
+  border-top: 3px solid var(--Blue);
+  border-radius: 3px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 300px;
 }
 
 .container > * img {
   display: block;
   margin-left: auto;
-  margin-top: 1.25rem;
+  margin-top: 20px;
 }
 
-@media (min-width: 23.5rem) {
+@media (min-width: 376px) {
   body {
     transform: scale(0.9);
     display: flex;
@@ -91,10 +105,10 @@ h1 > b {
   .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    grid-gap: 1.875rem;
-    max-width: 62.5rem;
-    max-height: 31.25rem;
+    grid-template-rows: 25% 25% 25% 25% 25%;
+    grid-gap: 30px;
+    max-width: 1000px;
+    max-height: 500px;
     transform: scale(0.7);
   }
 
