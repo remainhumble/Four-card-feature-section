@@ -56,7 +56,7 @@ I tested the layout across multiple devices and browsers, making adjustments for
 
 ### Deployment
 
-Finally, I deployed the project using Vercel and verified the live site for any issues.
+Finally, I deployed the project using Github Pages.
 
 ### Built with
 
