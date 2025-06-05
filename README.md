@@ -16,8 +16,6 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 This project is a responsive four-card feature section built as part of a Frontend Mentor challenge. The goal was to create a visually appealing layout that adapts seamlessly to different screen sizes using modern CSS techniques. The section highlights four distinct features, each represented by a card with an icon, title, and description. The design emphasizes clean structure, accessibility, and maintainable code.
@@ -77,7 +75,6 @@ Throughout this project, I deepened my understanding of responsive web design, p
   grid-template-rows: repeat(5, 1fr);
   grid-gap: 1.875rem;
   max-width: 62.5rem;
-  max-height: 31.25rem;
   transform: scale(0.7);
 }
 
